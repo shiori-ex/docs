@@ -121,7 +121,6 @@ Parameter | Type | Description
 
 ```json
 {
-  "exhaustiveNbHits": false,
   "hits": [
     {
       "description": "This is an example description",
@@ -135,10 +134,7 @@ Parameter | Type | Description
       "url": "https://example.com"
     }
   ],
-  "limit": 100,
-  "nbHits": 1,
-  "offset": 0,
-  "processingTimeMs": 5,
+  "processing_time_ms": 5,
   "query": "test"
 }
 ```
