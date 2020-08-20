@@ -43,6 +43,7 @@ A link object wraps a link *(aka. bookmark)* object.
 Field | Type | Description 
 ------|------|------------
 `id` | `number` | The snowflake ID of the link.
+`id_str` | `string` | The snowflake ID of the link as string.
 `url` | `string` | The link URL.
 `description` | `string` | A short description about the link.
 `tags` | `string[]` | A list of tags for the link.
@@ -52,6 +53,7 @@ Example:
 {
   "description": "This is an example description",
   "id": 450355460575232,
+  "id_str": "450355460575232",
   "tags": [
     "example",
     "stuff",
@@ -83,12 +85,14 @@ Parameter | Type | Description
   {
     "description": null,
     "id": 450185998110720,
+    "id_str": "450185998110720",
     "tags": null,
     "url": "https://zekro.de"
   },
   {
     "description": "This is an example description",
     "id": 450355460575232,
+    "id_str": "450355460575232",
     "tags": [
       "example",
       "stuff",
@@ -122,6 +126,7 @@ Parameter | Type | Description
     {
       "description": "This is an example description",
       "id": 450355460575232,
+      "id_str": "450355460575232",
       "tags": [
         "example",
         "stuff",
@@ -150,6 +155,7 @@ Returns a link object by its ID.
 {
   "description": "This is an example description",
   "id": 450355460575232,
+  "id_str": "450355460575232",
   "tags": [
     "example",
     "stuff",
@@ -180,6 +186,7 @@ Parameter | Type | Description
 {
   "description": "This is an example description",
   "id": 450355460575232,
+  "id_str": "450355460575232",
   "tags": [
     "example",
     "stuff",
@@ -210,6 +217,7 @@ Parameter | Type | Description
 {
   "description": "This is an example description",
   "id": 450355460575232,
+  "id_str": "450355460575232",
   "tags": [
     "example",
     "stuff",
